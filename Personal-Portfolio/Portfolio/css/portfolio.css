@@ -1,0 +1,157 @@
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+html {
+  min-height: 100%;
+  position: relative;
+  background: #ecf0f1;
+  width: 100%;
+}
+
+body {
+  background: #000;
+  font-family: 'Montserrat', sans-serif;
+  margin: 0 auto 60px;
+  width: 100%;
+}
+
+nav a {
+  color: Black;
+  display: inline-block;
+  padding: 0 20px;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: all ease-in 0.2s;
+  letter-spacing: 1px;
+}
+
+nav {
+  background: #ecf0f1;
+  height: 100%;
+  font-weight: bold;
+  line-height: 80px;
+  text-align: center;
+}
+
+nav a:hover {
+  background: #bdc3c7;
+  color: #fff;
+  text-decoration: none;
+}
+
+.header1 {
+  height: 370px;
+  background: url('../img/background2.jpg') no-repeat center;
+  background-size: cover;
+  text-align: center;
+  position: relative;
+}
+
+.header2 {
+  height: 370px;
+  background: url('../img/background6.jpg') no-repeat center;
+  background-size: cover;
+  text-align: center;
+  position: relative;
+}
+
+.header3 {
+  height: 370px;
+  background: url('../img/background7.jpg') no-repeat center;
+  background-size: cover;
+  text-align: center;
+  position: relative;
+}
+
+section h2 {
+  font-size: 40px;
+  margin: 0 auto 20px;
+}
+
+.projecth2 {
+  margin-bottom: 60px;
+}
+
+section {
+  background: #ecf0f1;
+  overflow: auto;
+  padding: 40px 0;
+  text-align: center;
+}
+
+section .fa-info {
+  background: #2c3e50;
+  border-radius: 50%;
+  color: #fff;
+  font-size: 70px;
+  line-height: 125px;
+  width: 125px;
+  margin-bottom: 60px;
+}
+
+section p {
+  margin: 0 150px;
+  font-size: 20px;
+    }
+footer {
+  background: #fff;
+  line-height: 60px;
+  text-align: center;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+}
+
+img {
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+
+}
+
+.fa {
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 30px;
+  color: black;
+  font-size: 40px;
+}
+
+.form-control {
+    border: 2.5px solid #7f8c8d;
+    border-radius: 10px;
+}
+
+.button:hover {
+cursor: pointer;
+}
+
+.project {
+  height: 190px;
+  border-radius: 10px;
+  border: 2.5px solid #7f8c8d;
+
+}
+
+.gamesh1 {
+  margin-bottom: 250px;
+  font-size: 35px;
+}
+
+.button {
+  margin-top: 30px;
+}
+
+@media (max-width: 800px) {
+section p {
+  margin: 0 30px;
+  font-size: 20px;
+    font-size: 18px;
+   }
+   @media (max-width: 358px) {
+   nav a {
+     font-size: 13px;
+      }
+
+}
